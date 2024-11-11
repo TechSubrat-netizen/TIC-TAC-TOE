@@ -1,0 +1,18 @@
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 50px;       /* Adjust as needed */
+    height: 50px;      /* Adjust as needed */
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.square:hover {
+    background-color: #ddd;
+}
